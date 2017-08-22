@@ -1,0 +1,35 @@
+
+/*begin main styles specific to the index page anish*/
+.ed-clearfix{clear:both;}
+a{color:#4d800b; text-decoration:none;}
+a:visited{color:#4d800b;}
+a:hover{color:#4d800b;}
+
+
+	#ed-indexHeader{width:688px; margin:0 auto;}
+
+	#ed-indexContainer{width:608px; height:270px; margin: 0 auto; text-align:left; background:url('../images/bg-box.gif') no-repeat; padding:40px; }
+		.ed-inputGroup{position:relative; width:300px; height:50px; float:left; margin:30px 0 20px;}
+		.ed-inputGroup label{float:left; text-transform:uppercase; color:#666; font:bold 12px/36px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 10px 0 0;}
+		.ed-inputGroup .ed-inputWrapper{float:left; background:url('../images/formFieldBG.gif') no-repeat; width:191px; height:22px; padding:7px 10px 6px;}
+		.ed-inputGroup input{background:none; border:none;  width:185px;}
+		.ed-inputGroup a{display:block; position:absolute; bottom:0; right:5px; clear:both; font:bold 11px/11px "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform:uppercase; color:#444;}
+
+		.password label{padding:0 7px 0 21px;}
+
+		.ed-signIn{float:right; margin-right: 10px; }
+		.ed-signIn a{text-transform:uppercase; padding:0 20px;}
+		
+
+		#ed-activateAccount{clear:both;}
+		#ed-activateAccount img{float:left; margin:0 10px 0 0; }
+		#ed-activateAccount h1{color:#444; font:bold 18px/20px "Trebuchet MS", Arial, H	elvetica, sans-serif; margin:0; padding:12px 0 5px 0;}
+		#ed-activateAccount p{color:#444; font:normal 14px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; margin:0; padding:0;}
+        #ed-activateAccount p a{font-weight:bold;}
+
+	#ed-indexFooter{width:688px; margin:10px auto 0; color:#afafaf; font:bold 12px/12px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+	#ed-indexFooter a{text-transform:uppercase;}
+	#ed-indexFooter p{color:#666; font:normal 12px/12px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+#btnSignIn:focus { outline: black dotted thin; }
+			
